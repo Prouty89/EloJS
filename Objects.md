@@ -1,4 +1,16 @@
-# EloJS
+# FE Masters From Fundamentals to Functional JS
+
+# Objects review
+
+- What is an Object? 
+
+- What is the difference between Dot and Bracket Notation? 
+
+- How do you add a property with a key that contains special characters? 
+
+- Whose key and value are stored in different variables? 
+
+- How do we loop through objects to access the values? 
 
 ## Random Notes 
 
@@ -91,5 +103,29 @@ Arrays vs Objects, really the only difference is Arrays can have methods on them
 -call a number of things within the brackets. 
 
 
-Concatenate
+Concatenate 
+
+
+## When to use Dot Notation vs. Bracket Notation 
+
+- Dot: Strings, (X) Numbers, (X) Quotations, (X) Weird Characters, (X) Expressions
+- Bracket: Strings, Numbers, Variables, Weird Characters, Expressions
+
+So why use Dot Notation?? to save characters
+
+# Non-valid Characters 
+
+var box = {};
+
+box['material'] = "cardboard";
+box[0] = 'meow';
+box['^*'] = "testing 123";
+
+var test = box['^&*'];
+
+box = {
+    "material" : "cardboard",
+    "0" : "meow",
+    "^&*" : "testing 123" 
+}
 
