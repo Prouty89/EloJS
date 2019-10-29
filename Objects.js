@@ -28,13 +28,13 @@
 
  //Solve repeating yourself by destructuring
 
-const [first, second] = [true, false];
+// const [first, second] = [true, false];
 
-let [first, second] = [true, false]; 
+// let [first, second] = [true, false]; 
 
-//assignment: 
+// //assignment: 
 
-[first, second] = [true, false];
+// [first, second] = [true, false];
 
 
 
@@ -93,3 +93,14 @@ let [first, second] = [true, false];
 //     "0" : "meow",
 //     "^&*" : "testing 123" 
 // }
+
+// Exercise 
+
+//1. Create an object: 
+
+
+// const obj = { name, weapon, room } =
+//     {"name": "Rusty", 
+//     "room":"kitchen", 
+//     "weapon":"candlestick"}
+
