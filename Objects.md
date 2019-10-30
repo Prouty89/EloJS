@@ -96,7 +96,7 @@ Primitive vs Non-primitive values **
 
 Mutable vs immutable (Updatable information or not)
 
-Arrays vs Objects, really the only difference is Arrays can have methods on them. .length property is IMPORTANT
+Arrays vs Objects, really the only difference is Arrays can have methods on them. .length property is IMPORTANT. Objects do not have order, Arrays do. 
 
 # Bracket Notation 
 
